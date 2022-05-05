@@ -1,0 +1,161 @@
+html {
+    overflow-x: hidden;
+    position: relative;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    overflow-x: hidden;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 28px;
+  }
+  
+  .navbar:hover {
+    color: grey;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  li {
+    display: inline;
+  }
+
+  a {
+      color: white;
+      font-size: 16px;
+  }
+
+  .photo {
+      width: 300px;
+      height: 300px;
+      margin-top: 2%;
+      border-radius: 10px;
+  }
+
+  .socials {
+      width: 25px;
+      height: 25px;
+      margin-top: 1%;
+  }
+
+  .socials:hover {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ftws-socials {
+      padding: 4px;
+  }
+
+  .ftws-icons {
+      width: 25px;
+      height: 25px;
+  }
+
+  .ftws-icons:hover {
+    width: 30px;
+    height: 30px;
+  }
+
+  #socials-title {
+      font-size: 40px;
+      font-weight: bold;
+  }
+
+  .navbar-s {
+      padding: 4px;
+  }
+
+  #socials-nav {
+      margin-top: -1.4%;
+  }
+
+  .name {
+    font-size: 40px;
+    margin-top: 1%;
+    font-weight: bold;
+  }
+
+  .tag {
+    font-size: 30px;
+    margin-top: -2%;
+  }
+
+  iframe {
+    width: 640px; 
+    height: 1585px;
+    margin-top: 2%;
+  }
+
+@media only screen and (max-width: 600px) {
+    .name {
+      font-size: 40px;
+      margin-top: 1%;
+    }
+    
+    .tag {
+      font-size: 25px;
+      margin-top: -9%;
+    }
+
+    #socials-nav {
+      margin-top: -7%;
+    }
+
+    .photo {
+      margin-top: 12.5%;
+    }
+    
+    .socials {
+      width: 25px;
+      height: 25px;
+      margin-top: 4%;
+    }
+
+    .socials:hover {
+      width: 30px;
+      height: 30px;
+    }
+
+    iframe {
+      width: 350px; 
+      height: 1295px;
+      margin-top: 2%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
